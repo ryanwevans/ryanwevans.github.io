@@ -1,0 +1,21 @@
+# Site settings
+title: LEARN to LOVE to CODE
+header-img: img/home-bg.png
+email: ryanwevans@icloud.com
+copyright_name: ryanwevans
+description: > # this means to ignore newlines until "baseurl:"
+  The Path to Becoming a Web Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  ryanwevans
+learn_profile: ryanwevans
+email_username: ryanwevans@icloud.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
