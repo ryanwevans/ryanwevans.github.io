@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Project: A Hidden Validation Found"
-date:       2019-02-07 05:52:15 +0000
+date:       2019-02-07 00:52:16 -0500
 permalink:  rails_project_a_hidden_validation_found
 ---
 
@@ -14,8 +14,8 @@ I ultimately found two models that would work well.  One was a higher level mode
 
 The other model was one that, although not needed if I used the first, I couldn't walk away from because it seemed like an obvious feature that the application needed.  It was the Comments model, which would allow users to share comments on Activities that they had signed up for.
 
-So I kept going, adding the Comments model to the project, and it was fairly straightforward.  Just a couple subtle adjustments to the forms for adding comments so it could live on same page as the Activity 'show' page (rather than it's own separate page).
-But then when I tested the functionality of adding and viewing comments on the Activity page, none of them were appearing on the page.  I couldn't find what was going on, because the all my code was correct.
+So I kept going, adding the Comments model to the project, and it was fairly straightforward.  Just a couple subtle adjustments to the forms for adding comments so it could live on the same page as the Activity 'show' page (rather than it's own separate page).
+But then when I tested the functionality of adding and viewing comments on the Activity page, none of them were appearing on the page.  I couldn't find what was going on, because all my code was correct.
 
 So I opened up the Rails console and started poking around.  Creating, retreiving, and assigning comments and activities.  I was trying to confirm the functionality of my code against my expectations.  Doing this helped me find and confirm that the comments I was creating weren't being persisted.  I ran the following code in the console to see what errors were happening (the errors are returned in the console if you add the ! (bang) to `.create`, `.save`, etc.):
 
