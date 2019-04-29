@@ -1,15 +1,14 @@
 # Site settings
-title: "No One Said it Was Going to be Easy"
+author: Ryan Evans
+title: Full Stack Web Development ~ Software Engineering
 header-img: img/home-bg.png
 email: ryanwevans@icloud.com
-copyright_name: ryanwevans
+copyright_name: Ryan Evans
 description: > # this means to ignore newlines until "baseurl:"
-  Flatiron School makes it easier; balancing everything else is hard
+  Sharing my knowledge learned from Flatiron School
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ryanwevans
-learn_profile: ryanwevans
-email_username: ryanwevans@icloud.com
 
 # Build settings
 markdown: kramdown
