@@ -1,13 +1,9 @@
 ---
 layout: post
 title:      "Simple Hoisting and Scope in JavaScript"
-date:       2019-04-29 01:48:32 +0000
+date:       2019-04-28 21:48:33 -0400
 permalink:  simple_hoisting_and_scope_in_javascript
 ---
-
-
-* * * *
-&nbsp;
 
 
 These two concepts can be a bit intimidating at first, so let's keep it simple for now.
