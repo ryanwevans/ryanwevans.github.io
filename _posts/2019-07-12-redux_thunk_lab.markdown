@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Redux Thunk Lab"
-date:       2019-07-12 20:05:46 +0000
+date:       2019-07-12 16:05:47 -0400
 permalink:  redux_thunk_lab
 ---
 
@@ -19,7 +19,6 @@ The *problem* is that this lab isn't one to breeze through.  It has some vague i
 
 I proceeded with building my app, but wasn't feeling confident.  My plan was to build out the basic functionality to meet what I understood the specs to be, then focus on the tests to make the necessary changes.  This worked, for a while.  But then I had some problems.  I had two tests that held me up for a long time.  I got help from a technical coach on the first, and it took us a good twenty minutes just to figure out what we needed to do, but it didn't seem to make the much sense.  
 The second test had me and two technical coaches totally stumped for about a day.  One coach continued to work on it on her own to see what she could find, and connected with me when she figured it out.  So here's what happened and hopefully this will help others avoid the same challenges...
-
 
 First, to pass the tests, the formatting of the state in your reducer needs to be very specific.  Be sure to read the failing test to see what your formatting needs to be.  In your action creator, the code probably looks something like this:
 
