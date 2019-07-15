@@ -6,7 +6,7 @@ permalink:  redux_thunk_lab
 ---
 
 
-### This lab is the last lab before starting your final project with Flatiron.  It's exciting to get this far and have only one lab left!
+This lab is the last lab before starting your final project with Flatiron.  It's exciting to get this far and have only one lab left!
 
 The *problem* is that this lab isn't one to breeze through.  It has some vague instructions which can leave you with questions before you even start.  Some of the questions I had were:
 
