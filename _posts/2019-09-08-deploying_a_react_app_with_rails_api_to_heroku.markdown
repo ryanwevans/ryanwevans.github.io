@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Deploying a React App with Rails API to Heroku"
-date:       2019-09-09 03:52:04 +0000
+date:       2019-09-08 23:52:05 -0400
 permalink:  deploying_a_react_app_with_rails_api_to_heroku
 ---
 
@@ -55,7 +55,7 @@ web: bundle exec rails server -p $PORT
 release: bin/rake db:migrate
 ```
 Heroku reads this file each time it starts up your app.
-</br>
+<br/>
 
 Okay, you're doing great! Now we're ready to deploy to Heroku...
 
@@ -69,14 +69,14 @@ heroku create
 heroku git:remote -a my-heroku-api-app-name
 ```
 ---
-</br>
+<br/>
 Next, change directories back to your main root directory.  You have to push to Heroku from here, because Heroku will not run your app from a sub-directory.  The command to do this is:
 ```
 git subtree push --prefix my-app-api heroku master
 ```
 You can probably see what's happening here.  From your main root directory, you're pushing a subtree to `heroku master`, and the `--prefix` is changing directories to the subtree `my-app-api`. 
 
-</br>
+<br/>
 Now the only steps left are to do the same process from your client directory.  From your root directory:
 
 ```
@@ -86,7 +86,7 @@ cd ..
 git subtree push --prefix my-app-client heroku master
 ```
 
-</br>
+<br/>
 NOTE: I'm using VS Code as my text editor, so this could be specific to it, but if I tried to push to Heroku after making any changes to my api or client directories, it tried to push to the most recent Heroku app (not usually the correct one).
 So if this happens to you, whenever you need to push any updates to Heroku, you'll need to re-add your Heroku app to your sub-directory again (api or client).
 But now, because you already have a Heroku app for each directory, you'll *add* it each time before you push to Heroku:
@@ -106,8 +106,8 @@ heroku apps:rename newname
 ```
 Now that you've changed your app directory, you'll need to go through the steps (above) to push the change to Heroku.
 
-</br>
-</br>
+<br/>
+<br/>
 And once you've done that... your done!  
 
 To open your app, run:
@@ -118,7 +118,7 @@ Or open the client app from your dashboard on Heroku.com.
 
 Don't forget that Heroku puts it's dyno's (aka, your app) to sleep when it isn't in use, that's how it affords to offer limited free hosting.  So this will slow down the loading of your app, that's normal.  When you open the client app, once it starts up, the content from your API will be blank for a few moments while Heroku is starting up the API app.  But don't worry, once the API app starts, your React components should re-mount and display the information from your Rails API.
 
-</br>
+<br/>
 Now celebrate!!
 
 ![](https://media.giphy.com/media/LSNqpYqGRqwrS/giphy.gif)
