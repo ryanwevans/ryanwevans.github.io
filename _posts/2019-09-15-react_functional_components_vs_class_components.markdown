@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Functional Components vs. Class Components"
-date:       2019-09-16 00:44:22 +0000
+date:       2019-09-15 20:44:23 -0400
 permalink:  react_functional_components_vs_class_components
 ---
 
