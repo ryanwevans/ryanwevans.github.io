@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Technical Interview Problem Solving Practice"
-date:       2019-09-30 05:54:16 +0000
+date:       2019-09-30 01:54:17 -0400
 permalink:  technical_interview_problem_solving_practice
 ---
 
 
-What I'm going to talk about in this post will seem very obvious...once you've *heard* it, but before hearing it, you're probably not really thinking about it (specifically).
+What I'm going to talk about in this post will seem very obvious...once you've *heard* it, but before hearing it, you're probably not *really* thinking about it (specifically).
 
 I had a great opportunity to do an informational interview (these are an amazing networking opportunity, by the way) with an executive at a company that performs technical interviews for other businesses.  Besides meeting a very down-to-earth and easy to talk to person, I got a piece of advice that I have been seeing since in many other resources, but not explained as clearly and obviously as it was the first time I heard it in this interview.
 
