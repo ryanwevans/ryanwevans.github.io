@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "BEM Naming Convention"
-date:       2019-10-27 02:22:14 +0000
+date:       2019-10-26 22:22:15 -0400
 permalink:  bem_naming_convention
 ---
 
@@ -58,7 +58,7 @@ When I said that BEM is *a* way to do this, what I mean is that it's an existing
 <br/>
 <br/>
 <br/>
-** Additional Resources: **
+**Additional Resources:**
 <br/>
 * [BEM Project Website](https://en.bem.info/)
 * [BEM 101](https://css-tricks.com/bem-101/)
