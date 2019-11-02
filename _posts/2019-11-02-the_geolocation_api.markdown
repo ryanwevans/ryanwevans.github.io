@@ -57,7 +57,7 @@ Remember that using the Geolocation API will prompt users to either 'block' or '
 <br/>
 *Resources:*
 * [Geolocation API on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
-* [Geolocation 101 - How To Get A User's Location on Crate.io](https://crate.io/a/geolocation-101-get-users-location/)
+* [Geolocation 101 - How To Get A User's Location (Crate.io)](https://crate.io/a/geolocation-101-get-users-location/)
 * [getCurrentPosition() on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition)
 * [watchPosition() on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/watchPosition)
 * [clearWatch() on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/clearWatch)
