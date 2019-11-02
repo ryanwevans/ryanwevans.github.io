@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Geolocation API"
-date:       2019-11-02 23:28:32 +0000
+date:       2019-11-02 19:28:33 -0400
 permalink:  the_geolocation_api
 ---
 
@@ -20,13 +20,13 @@ The Geolocation object has three useful methods:
 <br/>
 * `getCurrentPosition()` - does exactly as the name implies, getting the current position
 * `watchPosition()` - does what the name implies as well, continually tracking position
-* `clearWatch()` - terminates the continuous tracking started by `watchPosition`
+* `clearWatch()` - terminates the continuous tracking started by `watchPosition()`
 
 <br/>
-`getCurrentPosition` and `watchPosition` require a callback function to handle the `Position` object it receives upon a succesful location request.  They both also have an optional second parameter for a callback function to handle the `PositionError` object if the request fails.
+`getCurrentPosition()` and `watchPosition()` require a callback function to handle the `Position` object it receives upon a succesful location request.  They both also have an optional second parameter for a callback function to handle the `PositionError` object if the request fails.
 <br/>
 <br/>
-The `clearWatch` method takes one parameter, which is the `watchID` , an ID number that was returned from the `watchPosition` method.
+The `clearWatch()` method takes one parameter, which is the `watchID` , an ID number that was returned from the `watchPosition()` method.
 <br/>
 <br/>
 Here's an example of usage from [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) that only handles a successful request:
