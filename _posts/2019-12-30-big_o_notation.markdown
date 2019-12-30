@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Big O Notation"
-date:       2019-12-30 07:29:26 +0000
+date:       2019-12-30 02:29:27 -0500
 permalink:  big_o_notation
 ---
 
@@ -38,7 +38,7 @@ The main point here is, what are the worst-case requirements (in terms of space 
 Take a look at some of these references to find one that connects for you:
 <br/>
 * Big O Notation in JavaScript ([Cesar's Tech Insights](https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b) on Medium.com)
-* Big O Notation - Using not-boring math to measure code's efficiency ([Interview Cake](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity))
+* Using not-boring math to measure code's efficiency ([Interview Cake](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity))
 * Big-O notation ([Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation))
 * Big O notation ([freeCodeCamp](https://guide.freecodecamp.org/computer-science/notation/big-o-notation/))
 * A beginner's guide to Big O notation ([Rob Bell](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/))
