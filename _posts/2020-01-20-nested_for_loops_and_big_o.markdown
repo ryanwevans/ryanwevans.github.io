@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Nested For Loops and Big O"
-date:       2020-01-20 05:44:17 +0000
+date:       2020-01-20 00:44:18 -0500
 permalink:  nested_for_loops_and_big_o
 ---
 
@@ -64,8 +64,8 @@ function isAnagram(str1, str2){
         }
     }
     return true;
- }
-	```
+}
+```
 	
 <br/>
 So, let's review the time complexity of this approach.
