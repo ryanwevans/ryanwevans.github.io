@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Case vs. Hash"
-date:       2020-01-26 03:21:53 +0000
+date:       2020-01-25 22:21:54 -0500
 permalink:  case_vs_hash
 ---
 
@@ -16,11 +16,11 @@ Let's take a look at what the case statement might look like:
 ```
 case @operation_number {
   when 1
-	  append(characters)
+	 append(characters)
   when 2
-	  delete(characters)
+	 delete(characters)
   else
-	  raise 'Please enter a valid operation number'
+	 raise 'Please enter a valid operation number'
   end
 }
 ```
