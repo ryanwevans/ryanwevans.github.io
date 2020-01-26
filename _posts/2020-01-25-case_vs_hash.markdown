@@ -16,11 +16,11 @@ Let's take a look at what the case statement might look like:
 ```
 case @operation_number {
   when 1
-	 append(characters)
+   append(characters)
   when 2
-	 delete(characters)
+   delete(characters)
   else
-	 raise 'Please enter a valid operation number'
+   raise 'Please enter a valid operation number'
   end
 }
 ```
